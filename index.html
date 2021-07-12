@@ -20,11 +20,11 @@
   <style>
     body { background-color:orange;border:25px;marigin:50px green solid;}
     
-    header{font-type:verdana;color:green;background-color:indigo;}
+   
     
     p{ background-color:silver;border:10px silver solid;font-size:100%;text-color:black;}
     img{
-      max-width:100%;
+      max-width:auto;
       height:auto;
     }
     
@@ -32,7 +32,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: none;
   background-color: #333;
   position: fixed;
   top: 0;
@@ -77,28 +77,35 @@ li.dropdown {
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content a{
   color: green;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
-
+.dropdown:hover .dropdown-content {
+  display: block;
+}
     .hero-image {
   background: url("https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 ") no-repeat center;
   background-size: cover;
   height: 500px;
   position: relative;
     }
-      head {
+      header {
       background: url(https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 );
      background-size:cover;
      background-repeat: no-repeat;
       
       
       }
-      
+     div {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+} 
 
 
   </style>
