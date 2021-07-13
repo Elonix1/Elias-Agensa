@@ -19,7 +19,7 @@
             <a href="home#">Eliensa</a>
          </div>
          
-          
+        </li>  
           <div class="nav-items"></li>
         
            <li><a href="News#">NEWS</a></li>
@@ -147,7 +147,7 @@ html,body{
 } 
     nav{
   background: #171c24;
-  display: flex;
+  display: fixed;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -157,11 +157,11 @@ html,body{
 nav .logo{
   color: #fff;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -1px;
 }
 nav .nav-items{
-  display: fixed;
+  display: none;
   flex: 1;
   padding: 0 0 0 40px;
 }
@@ -239,7 +239,7 @@ nav .search-icon{
     text-align: center;
   }
   nav .nav-items{
-    position: float;
+    position: flex;
     z-index: 99;
     top: 70px;
     width: 100%;
