@@ -19,7 +19,17 @@
             <a href="home#">HOME</a>
          </div>
          <div class="nav-items">
-           
+      <div class="search-icon">
+            <span class="fas fa-search"></span>
+         </div>
+         <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+         </div>
+         <form action="#">
+            <input type="search" class="search-data" placeholder="Search" required>
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+    </div>     
           
     <li><a href="home#">HOME</a></li>
      <li><a href="News#">NEWS</a></li>
@@ -33,18 +43,8 @@
       <a href="#">Mobile app development</a>
       <a href="#">Digital marketing</a>
       
-       </li>    /* responsive design for small screen with humburger menu*/
-          <div class="search-icon">
-            <span class="fas fa-search"></span>
-         </div>
-         <div class="cancel-icon">
-            <span class="fas fa-times"></span>
-         </div>
-         <form action="#">
-            <input type="search" class="search-data" placeholder="Search" required>
-            <button type="submit" class="fas fa-search"></button>
-         </form>
-    </div>
+       </li>    
+          
    
             </div>
          
@@ -147,7 +147,7 @@ html,body{
 } 
     nav{
   background: #171c24;
-  display: flex;
+  display: fixed;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
