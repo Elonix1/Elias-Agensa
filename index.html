@@ -10,12 +10,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-  <h3><center>WELCOME to MY SITE</center></h3>
-<picture> 
- <center><img src="https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"alt="image">
-  </center>
   
-  </picture>
+
+  
+  
   
   <style>
    /*body { background-color:orange;border:25px;marigin:50px green solid;} */
@@ -182,7 +180,7 @@ nav .search-icon{
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  display: none;
+  display: block;/*none*/
 }
 nav .menu-icon span,
 nav .cancel-icon,
@@ -344,7 +342,7 @@ nav .logo.space{
             <span class="fas fa-bars"></span>
          </div>
          <div class="logo">
-            Home
+            <li><a href="home#">HOME</a></li>
          </div>
          <div class="nav-items">
            
@@ -375,7 +373,7 @@ nav .logo.space{
          </form>
       </nav>
      
-      </div>
+      
       <script>
          const menuBtn = document.querySelector(".menu-icon span");
          const searchBtn = document.querySelector(".search-icon");
