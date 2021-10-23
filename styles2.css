@@ -3,8 +3,14 @@ p{font-size:100%;font-type:helvetica;color:white;transition:1s}
       max-width:100%;
       height:auto;
     }
+     body{
+    background-color:grey;
+      padding:8px 4px;
+      border:8px solid green;
     
-   <!-- ul {
+    }
+   
+   ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,7 +19,7 @@ p{font-size:100%;font-type:helvetica;color:white;transition:1s}
   position: fixed;
   top: 0;
   width: 100%;
-} -->
+}
 
 li {
   float: left;
@@ -32,14 +38,14 @@ li a:hover,.dropdown:hover .dropbtn {
 }
     .dropbtn{
   display: inline-block;
-  color: white;
+  color: orange;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .active{
-  background-color:#04AA6D ;}
+  background-color:green ;}
 li.dropdown {
   display: inline-block;
 }
@@ -54,7 +60,7 @@ li.dropdown {
 }
 
 .dropdown-content a{
-  color: green;
+  color: blue;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -110,7 +116,7 @@ nav .nav-items li{
   padding: 0 15px;
 }
 nav .nav-items li a{
-  color: #fff;
+  color:violet ;/*|#fff*/
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
@@ -314,7 +320,7 @@ nav .logo.space{
 .button{
    font-size:100%;
    color:Purple;
-    background-color:yellow;
+    background-color:brown;
     border:10px solid green;
     padding:16px 8px;
     marigin:8px 4px;
