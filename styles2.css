@@ -311,3 +311,16 @@ nav .logo.space{
 .content .space{
   margin: 10px 0;
 }
+.button{
+   font-size:25%;
+   color:Purple;
+    background-color:yellow;
+    border:10px solid green;
+    padding:16px 8px;
+    marigin:8px 4px;
+    text-decoration:none;
+    text-align:center;
+    display:inline-block;
+    cursor:pointer;
+
+}
