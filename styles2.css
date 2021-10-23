@@ -1,4 +1,8 @@
-p{font-size:100%;font-type:helvetica;color:white;transition:1s}
+p{font-size:100%;
+    font-type:helvetica;
+    color:black;transition:1s
+    padding:16px 8px;
+    }
     img{
       max-width:100%;
       height:auto;
@@ -16,7 +20,7 @@ p{font-size:100%;font-type:helvetica;color:white;transition:1s}
   padding: 0;
   overflow: none;
   background-color: #333;
-  position: fixed;
+  position: flex;
   top: 0;
   width: 100%;
 }
@@ -27,7 +31,7 @@ li {
 
 li a, .dropbtn{
   display: block;
-  color: white;
+  color: brown;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
