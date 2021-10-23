@@ -4,7 +4,7 @@ p{font-size:100%;font-type:helvetica;color:white;transition:1s}
       height:auto;
     }
     
-    ul {
+   <!-- ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ p{font-size:100%;font-type:helvetica;color:white;transition:1s}
   position: fixed;
   top: 0;
   width: 100%;
-}
+} -->
 
 li {
   float: left;
@@ -72,7 +72,7 @@ li.dropdown {
   
   transition: 1s;
 } 
-html,body{
+html{
   background: url(https://images.pexels.com/photos/3222255/pexels-photo-3222255.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat center fixed;
   background-size: cover;
 } 
@@ -312,7 +312,7 @@ nav .logo.space{
   margin: 10px 0;
 }
 .button{
-   font-size:25%;
+   font-size:100%;
    color:Purple;
     background-color:yellow;
     border:10px solid green;
