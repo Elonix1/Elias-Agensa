@@ -1,5 +1,5 @@
 # web-porfolio
 This is a sample web portfolio
-🥇#making-web-portfolio-for-start-ups
+🥇#making-web-portfolio
 
 **Made** by *EA*
