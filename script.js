@@ -33,14 +33,14 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Tech Enthusiast" , "Web developer", "Graphics and motion designer" , "Mechanical and industrial Engineer", " Creative content writer" ], 
+        strings: ["Tech Enthusiast" ,"Mechanical and industrial Engineer", "Web developer", "Graphics and motion designer" ,  " Creative content writer" ], 
         typeSpeed: 120,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Tech Enthusiast" , "Web developer", "Graphics and motion designer" , " Mechanical and industrial Engineer" , "Creative content writer", "AAiT", "AAU"],
+        strings: ["Tech Enthusiast" , " Mechanical and industrial Engineer" ,"Web developer", "Graphics and motion designer" ,  "Creative content writer"],
         typeSpeed: 120,
         backSpeed: 60,
         loop: true
